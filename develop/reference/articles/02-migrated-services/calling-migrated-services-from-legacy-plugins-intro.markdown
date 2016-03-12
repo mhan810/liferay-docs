@@ -76,3 +76,24 @@ utilities of the following components:
 If your legacy plugins were consuming any of the APIs listed in the table above,
 you'll need to update your existing code to consume the API from the new
 modules.
+
+We will assume your plugin is in the Liferay Plugins SDK, you should perform the following:
+(1) Modify your ivy.xml to include the appropriate compile time references (e.g. com.liferay.journal.api.jar)
+(2) Update appropriate imports in your code
+(3) Most static utility classes like JournalArticleServiceUtil remain (only in different packages).  However, some service references may not have static utilities.  For those that do not have proper static utilities, you should use the bundle context to obtain a service reference.  For instance:
+
+Bundle bundle = FrameworkUtil.getBundle(getClass());
+
+BundleContext bundleContext = bundle.getBundleContext();
+
+ServiceReference<UserImporter> serviceReference = bundleContext.getServiceReference(UserImporter.class);
+
+UserImporter userImporter = bundleContext.getService(serviceReference);
+
+(4) Modify (or add) WEB-INF/liferay-plugin-package.properties:
+    - add deploy-excludes to include all OSGi libraries (e.g. org.osgi.core.jar, com.lifereay.portal.security.exportimport.api.jar, etc)
+    
+(5) You may also include other manifest properties (e.g. Provide-Capability, Require-Capability, etc)
+
+
+
