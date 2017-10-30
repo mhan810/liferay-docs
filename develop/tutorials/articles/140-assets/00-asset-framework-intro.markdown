@@ -19,7 +19,7 @@ to generate your persistence layer, that you've implemented permissions on the
 entities that you're persisting, and that you've enabled them for search and
 indexing. You can learn more about Liferay's Service Builder and how to use it
 in the
-[Business Logic and Data Access](/develop/tutorials/-/knowledge_base/7-0/business-logic-and-data-access)
+[Service Builder](/develop/tutorials/-/knowledge_base/7-0/service-builder)
 tutorial section.
 
 <!-- If you've yet to do any of those things, you can see how each is done
@@ -75,10 +75,10 @@ deleted. The next tutorial covers that. From that point onward, each tutorial
 shows you how to leverage a particular asset framework feature in your UI.
 It's time to start your asset framework training!
 
-## Related Topics
+## Related Topics [](id=related-topics)
 
 [What is Service Builder](/develop/tutorials/-/knowledge_base/7-0/what-is-service-builder)
 
 [Service Builder Persistence](/develop/tutorials/-/knowledge_base/7-0/service-builder-persistence)
 
-[Application Configuration](/develop/tutorials/-/knowledge_base/7-0/application-configuration)
+[Configuration](/develop/tutorials/-/knowledge_base/7-0/configuration)

@@ -1,11 +1,11 @@
-# Layout Templates with the Themes Generator [](id=creating-layout-templates-with-the-themes-generator-0)
+# Layout Templates with the Liferay Theme Generator [](id=creating-layout-templates-with-the-themes-generator-0)
 
 Layout Templates specify how content is arranged on your site pages in @product@.
 For example, take a look at the *1-2-1 Columns Layout CE* layout shown below:
 
 ![Figure 1: The *1-2-1 Columns Layout CE* page layout creates a nice flow for your content.](../../images/layout-template-1-2-1-columns.png)
 
-Liferay 7 and DXP provide several layout templates out-of-the-box for you to 
+@product-ver@ and DXP provide several layout templates out-of-the-box for you to 
 choose from. You can change the layout for your page, and view the installed 
 layout templates, by opening the `Edit` menu for your page, under the `Navigation`
 heading of the `Product Menu` and scrolling down to the *Layouts* heading.
@@ -22,10 +22,10 @@ This tutorial demonstrates how to:
 - Create a Thumbnail for a Layout Template
 
 In order to create a layout template with the Layouts Sub-generator, you will 
-need the Node.js build tools installed. The [Themes Generator](/develop/tutorials/-/knowledge_base/7-0/themes-generator)
+need the Node.js build tools installed. The [Liferay Theme Generator](/develop/tutorials/-/knowledge_base/7-0/themes-generator)
 tutorial explains how to install these tools and how to create a theme.
 
-Once you have the Themes Generator installed you can go ahead and get
+Once you have the Liferay Theme Generator installed you can go ahead and get
 started.
 
 ## Creating a Layout Template with the Layouts Sub-generator [](id=creating-a-layout-template-with-the-layouts-sub-generator)
@@ -125,4 +125,4 @@ Edit a page on your site and select your new layout template to use it.
 
 [Importing Resources with Your Themes](/develop/tutorials/-/knowledge_base/7-0/importing-resources-with-a-theme)
 
-[Themes Generator](/develop/tutorials/-/knowledge_base/7-0/themes-generator)
+[Liferay Theme Generator](/develop/tutorials/-/knowledge_base/7-0/themes-generator)
