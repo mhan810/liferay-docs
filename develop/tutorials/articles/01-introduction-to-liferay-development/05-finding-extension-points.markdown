@@ -112,7 +112,7 @@ information on the other policies and policy options, visit the
 [OSGi specification](https://osgi.org/download/r6/osgi.enterprise-6.0.0.pdf), in
 particular, sections 112.3.5 and 112.3.6. If you want to learn how to
 override a component's service reference, visit the tutorial
-[here](/develop/tutorials/-/knowledge_base/7-1/overriding-service-references).
+[here](/develop/tutorials/-/knowledge_base/7-1/overriding-osgi-services).
 
 **Important** Not all Liferay extension points are available as referenced
 services. Service references are common in Declarative Services (DS) components,

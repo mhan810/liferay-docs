@@ -12,7 +12,7 @@ ranking, and deploy it.
 All existing components that reference the original MVC command service
 component (using a greedy reference policy) switch to reference your new one.
 Any existing
-[reluctant references to the original command must be configured to reference the new one](/develop/tutorials/-/knowledge_base/7-1/overriding-service-references). 
+[reluctant references to the original command must be configured to reference the new one](/develop/tutorials/-/knowledge_base/7-1/overriding-osgi-services). 
 Once they're configured with the new service component, their JSP's command URLs
 invoke the new custom MVC command. 
 
